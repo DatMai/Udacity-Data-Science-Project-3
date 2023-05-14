@@ -17737,6 +17737,20 @@ The top 10 recommendations for user 20 are the following article names:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>SVD is a matrix factorization technique that decomposes a matrix into three separate matrices: a left singular matrix (U), a diagonal matrix of singular values (Sigma), and a right singular matrix (V-transpose). SVD is a powerful technique for reducing the dimensionality of data while preserving its important characteristics, and it is commonly used in recommendation systems to identify latent features that capture user preferences and item characteristics.</p>
+<p>In the classroom example, we had to use FunkSVD because there were missing values in the matrix, and FunkSVD is a technique that can handle missing values in the matrix. Unlike SVD, which requires a complete matrix, FunkSVD is an algorithm that can work with a partially observed matrix by factorizing the matrix into two low-rank matrices. FunkSVD is commonly used in recommendation systems when the user-item matrix has missing values.</p>
+<p>In conclusion, the user-item matrix that we have for this problem does not have any missing values, so we can perform Singular Value Decomposition (SVD) directly. In contrast, in the classroom setting, the user-item matrix had missing values which made it necessary to use a variant of SVD known as FunkSVD.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><code>3.</code> Now for the tricky part, how do we choose the number of latent features to use?  Running the below cell, you can see that as the number of latent features increases, we obtain a lower error rate on making predictions for the 1 and 0 values in the user-item matrix.  Run the cell below to get an idea of how the accuracy improves as we increase the number of latent features.</p>
 
 </div>
