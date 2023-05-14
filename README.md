@@ -3,8 +3,6 @@
 # `Udacity-Data-Science-Project-3`
 # `Recommendations with IBM`
 
-<span style="color:blue">some *This is Blue italic.* text</span>
-
 ### Table of Contents
 Installations
 
