@@ -1,5 +1,5 @@
 ![image](https://github.com/DatMai/Udacity-Data-Science-Project-3/assets/74104677/c6b118a0-fe91-4a1e-9f5e-6ca17bd2572c)
-![aaa0a00dfc134ae355fec45fb11724b0](https://github.com/DatMai/Udacity-Data-Science-Project-3/assets/74104677/5cf75127-f6c7-4de6-b599-2ce1ad194a65)
+![a2314a71c833d44751bc09a4fa1c2769](https://github.com/DatMai/Udacity-Data-Science-Project-3/assets/74104677/61ec839b-5a16-4929-9212-eeac0bda2427)
 
 # `Recommendations with IBM`
 
